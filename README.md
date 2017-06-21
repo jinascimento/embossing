@@ -22,7 +22,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Full format:
+```ruby
+EmbossingName::EmbossingName.normalize_name_to_embossing('Wickaninnish Muscowequan Aputsiaq Goyathlay')     #=> "WICKANINNISH M A GOY"
+```
+
+Only reducing the name:
+```ruby
+EmbossingName::EmbossingName.reduct_name('Nanook Quidel Kaneonuskatew Qillaq')     #=> "Nanook Q K Qillaq"
+```
+Only removing the accents:
+```ruby
+EmbossingName::EmbossingName.remove_accents('Nanóók Quídél Kaneonuskatew Qillaq')     #=> "Nanook Quidel Kaneonuskatew Qillaq"
+```
 
 ## Development
 
@@ -32,7 +44,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/Jhonatan I. Nascimento/embossing_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jhonatannascimento1994/embossing_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

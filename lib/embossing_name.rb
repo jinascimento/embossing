@@ -1,7 +1,7 @@
 module EmbossingName
   class EmbossingName
   require "active_support/inflector"
-    
+
     class << self
 
       def normalize_name_to_embossing(full_name, size_name = 19)
