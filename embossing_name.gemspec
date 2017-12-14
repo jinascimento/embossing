@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'embossing_name/version'
+require 'embossing/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "embossing_name"
-  spec.version       = "0.1.7"
+  spec.name          = "embossing"
+  spec.version       = "0.3.1"
   spec.authors       = ["Jhonatan I. Nascimento"]
-  spec.email         = ["jhonatan-nascimento94@hotmail.com.br"]
+  spec.email         = ["jhonatan-nascimento94@hotmail.com"]
 
   spec.summary       = "A gem of embossing of card"
   spec.description   = "This gem is used for embossing of card, also have methods of normalization of name"
-  spec.homepage      = "https://github.com/jhonatannascimento1994"
+  spec.homepage      = "https://github.com/jinascimento"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

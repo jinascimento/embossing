@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'embossing_name'
+gem 'embossing'
 ```
 
 And then execute:
@@ -18,22 +18,22 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install embossing_name
+    $ gem install embossing
 
 ## Usage
 
 Full format:
 ```ruby
-EmbossingName::EmbossingName.normalize_name_to_embossing('Wickaninnish Muscowequan Aputsiaq Goyathlay')     #=> "WICKANINNISH M A GOY"
+Embossing::Name.normalize_name_to_embossing('Wickaninnish Muscowequan Aputsiaq Goyathlay')     #=> "WICKANINNISH M A GOY"
 ```
 
 Only reducing the name:
 ```ruby
-EmbossingName::EmbossingName.reduct_name('Nanook Quidel Kaneonuskatew Qillaq')     #=> "Nanook Q K Qillaq"
+Embossing::Name.reduct_name('Nanook Quidel Kaneonuskatew Qillaq')     #=> "Nanook Q K Qillaq"
 ```
 Only removing the accents:
 ```ruby
-EmbossingName::EmbossingName.remove_accents('Nanóók Quídél Kaneonuskatew Qillaq')     #=> "Nanook Quidel Kaneonuskatew Qillaq"
+Embossing::Name.remove_accents('Nanóók Quídél Kaneonuskatew Qillaq')     #=> "Nanook Quidel Kaneonuskatew Qillaq"
 ```
 
 ## Development
@@ -44,7 +44,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jhonatannascimento1994/embossing_name. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jinascimento/embossing. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
