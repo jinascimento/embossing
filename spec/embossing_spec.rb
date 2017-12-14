@@ -3,7 +3,7 @@ require 'spec_helper'
 RSpec.describe 'Embossing::Name' do
 
   before(:each) do
-    @embossing_name = Embossing::Name
+    @embossing_name = Embossing::EmbossingName
   end
 
   it 'has a version number' do

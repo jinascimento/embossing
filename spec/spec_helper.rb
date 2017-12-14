@@ -1,5 +1,5 @@
 require 'rspec'
-require 'name'
+require 'embossing_name'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,5 +1,5 @@
 module Embossing
-  class Name
+  class EmbossingName
     require 'active_support/inflector'
 
     class << self
