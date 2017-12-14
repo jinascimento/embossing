@@ -5,7 +5,7 @@ require 'embossing/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "embossing"
-  spec.version       = "0.3.5"
+  spec.version       = "0.3.7"
   spec.authors       = ["Jhonatan I. Nascimento"]
   spec.email         = ["jhonatan-nascimento94@hotmail.com"]
 

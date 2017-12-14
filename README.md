@@ -22,18 +22,22 @@ Or install it yourself as:
 
 ## Usage
 
+Require:
+
+    $ require 'embossing_name'
+
 Full format:
 ```ruby
-Embossing::Name.normalize_name_to_embossing('Wickaninnish Muscowequan Aputsiaq Goyathlay')     #=> "WICKANINNISH M A GOY"
+Embossing::EmbossingName.normalize_name_to_embossing('Wickaninnish Muscowequan Aputsiaq Goyathlay')     #=> "WICKANINNISH M A GOY"
 ```
 
 Only reducing the name:
 ```ruby
-Embossing::Name.reduct_name('Nanook Quidel Kaneonuskatew Qillaq')     #=> "Nanook Q K Qillaq"
+Embossing::EmbossingName.reduct_name('Nanook Quidel Kaneonuskatew Qillaq')     #=> "Nanook Q K Qillaq"
 ```
 Only removing the accents:
 ```ruby
-Embossing::Name.remove_accents('Nanóók Quídél Kaneonuskatew Qillaq')     #=> "Nanook Quidel Kaneonuskatew Qillaq"
+Embossing::EmbossingName.remove_accents('Nanóók Quídél Kaneonuskatew Qillaq')     #=> "Nanook Quidel Kaneonuskatew Qillaq"
 ```
 
 ## Development
